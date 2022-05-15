@@ -1,0 +1,40 @@
+
+.Middlebody{
+    padding-left: 7.5em;
+    padding-right: 7.5em;
+
+}
+.gigantic_header_text{
+    font-size: 1.2em;
+}
+
+.gigantic_header_color{
+    color:rgb(87, 85, 81);
+}
+
+#cardstyle1{
+    height: 80px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 80px;
+    background-color: rgb(245, 245, 245);
+
+}
+
+#cardstyle2{
+    height: 320px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+
+#cardstyle3{
+    height: 240px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+  

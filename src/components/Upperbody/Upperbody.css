@@ -1,0 +1,26 @@
+*{
+    font-family: "PTRootUI",Helvetica,Arial,sans-serif;
+}
+
+.Upperbody{
+    padding-left: 7.5em;
+    padding-right: 7.5em;
+
+}
+
+.gigantic_header{
+    font-size: 48px;
+    font-weight: bold;
+    color: #212121;
+}
+
+.gigantic_header_text{
+    font-size: 1.2em;
+}
+
+.gigantic_header_color{
+    color:rgb(87, 85, 81);
+}
+
+
+
