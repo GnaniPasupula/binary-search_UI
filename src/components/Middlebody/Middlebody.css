@@ -1,15 +1,13 @@
 
 .Middlebody{
-    padding-left: 7.5em;
-    padding-right: 7.5em;
-
-}
-.gigantic_header_text{
-    font-size: 1.2em;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.gigantic_header_color{
-    color:rgb(87, 85, 81);
+.gap{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
 }
 
 #cardstyle1{
@@ -17,7 +15,7 @@
     vertical-align: middle;
     text-align: center;
     line-height: 80px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -34,6 +32,7 @@
     text-align: center;
     background-color: rgb(245, 245, 245);
 }
+
 
 
 

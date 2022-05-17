@@ -5,7 +5,7 @@ function Appbar() {
   return (
     <header>
       <div>
-        <div class="ui secondary menu">
+        <div class="ui stackable secondary tiny menu">
           <a class="item">
             <i id="icons" class="behance big icon"></i>
             <h2>binarysearch</h2>
@@ -53,7 +53,9 @@ function Appbar() {
             </div>
 
             <a class="item">
-              <button class="ui blue button">Get Started</button>
+              <button id={"iconsz"} class="ui button">
+                Get Started
+              </button>
             </a>
           </div>
         </div>

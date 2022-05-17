@@ -75,7 +75,7 @@ function Middlebody() {
       </div>
       <div>
         <div class="ui two stackable cards">
-          <div id={"cardstyle2"} class="ui card">
+          <div id={"cardstyle2"} class="ui fluid card">
             <div class="left aligned content">
               <div class="header">
                 <h1>1,000 real interview problems</h1>
@@ -86,7 +86,7 @@ function Middlebody() {
             </div>
           </div>
 
-          <div id={"cardstyle2"} class="ui card">
+          <div id={"cardstyle2"} class="ui fluid card">
             <div class="image"></div>
             <div class="left aligned content">
               <div class="header">
@@ -100,46 +100,59 @@ function Middlebody() {
           </div>
         </div>
       </div>
-      <div class="ui one stackable cards">
-        <div id={"cardstyle3"} class="card">
-          <div class="left aligned content">
-            <div class="header">
-              <h1>Text and voice chat</h1>
-            </div>
-            <div class="description gigantic_header_text gigantic_header_color">
-              Chat with others to help each other out or for some friendly
-              competition.
+      <div class="ui grid">
+        <div class="row"></div>
+      </div>
+      <div>
+        <div class="ui one stackable cards">
+          <div id={"cardstyle3"} class="ui fluid card">
+            <div class="left aligned content">
+              <div class="header">
+                <h1>Text and voice chat</h1>
+              </div>
+              <div class="description gigantic_header_text gigantic_header_color">
+                Chat with others to help each other out or for some friendly
+                competition.
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="ui two stackable cards">
-        <div id={"cardstyle2"} class="card">
-          <div class="left aligned content">
-            <div class="header">
-              <h1>Stay motivated</h1>
-            </div>
-            <div class="description gigantic_header_text gigantic_header_color">
-              Earn virtual gems, unlock new levels, and keep your streak up as
-              you master coding interviews.
+
+      <div class="ui grid">
+        <div class="row"></div>
+      </div>
+
+      <div>
+        <div class="ui two stackable cards">
+          <div id={"cardstyle2"} class="ui fluid card">
+            <div class="left aligned content">
+              <div class="header">
+                <h1>Stay motivated</h1>
+              </div>
+              <div class="description gigantic_header_text gigantic_header_color">
+                Earn virtual gems, unlock new levels, and keep your streak up as
+                you master coding interviews.
+              </div>
             </div>
           </div>
-        </div>
 
-        <div id={"cardstyle2"} class="card">
-          <div class="image"></div>
-          <div class="left aligned content">
-            <div class="header">
-              <h1>Join our community</h1>
-            </div>
+          <div id={"cardstyle2"} class="ui fluid card">
+            <div class="image"></div>
+            <div class="left aligned content">
+              <div class="header">
+                <h1>Join our community</h1>
+              </div>
 
-            <div class="description gigantic_header_text gigantic_header_color">
-              Join 50,000+ community members, ask questions in our global chat,
-              and find exciting career opportunities.
+              <div class="description gigantic_header_text gigantic_header_color">
+                Join 50,000+ community members, ask questions in our global
+                chat, and find exciting career opportunities.
+              </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="ui grid">
         <div class="row"></div>
         <div class="row"></div>
@@ -153,11 +166,15 @@ function Middlebody() {
         Join our community of over 50,000 programmers and start solving problems
         today.
       </p>
-      <div class="ui icon input">
-        <input type="text" placeholder="Enter your email" />
-        <i aria-hidden="true" class="search icon"></i>
+      <div className="gap">
+        <div class="ui icon input">
+          <input id="background2" type="text" placeholder="Enter your email" />
+          <i aria-hidden="true" class="search icon"></i>
+        </div>
+        <button id={"iconsz"} class="ui button">
+          Get Started
+        </button>
       </div>
-      <button class="ui blue button">Get Started</button>
 
       <div class="ui grid">
         <div class="row"></div>
@@ -220,11 +237,21 @@ function Middlebody() {
         <div class="row"></div>
         <div class="row"></div>
       </div>
-      <div class="ui icon input">
-        <input type="text" placeholder="Enter your email" />
-        <i aria-hidden="true" class="search icon"></i>
+      <div>
+        <div className="gap">
+          <div class="ui icon input">
+            <input
+              id="background2"
+              type="text"
+              placeholder="Enter your email"
+            />
+            <i aria-hidden="true" class="search icon"></i>
+          </div>
+          <button id={"iconsz"} class="ui button">
+            Get Started
+          </button>
+        </div>
       </div>
-      <button class="ui blue button">Get Started</button>
     </div>
   );
 }

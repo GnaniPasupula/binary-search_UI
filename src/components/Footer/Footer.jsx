@@ -9,7 +9,8 @@ function Footer() {
         <div class="row"></div>
         <div class="row"></div>
         <div class="row"></div>
-
+      </div>
+      <div class="ui stackable four column grid">
         <div class="left aligned four wide column">
           <div class="row">
             <div class="column">

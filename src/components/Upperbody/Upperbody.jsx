@@ -8,9 +8,10 @@ function Upperbody() {
         <div class="row"></div>
         <div class="row"></div>
         <div class="row"></div>
-
+      </div>
+      <div class="ui stackable three column grid">
         <div class="row">
-          <div class="left aligned nine wide column">
+          <div class="left aligned ten wide column">
             <div>
               <p className="gigantic_header">Learn Algorithms Together </p>
             </div>
@@ -39,14 +40,18 @@ function Upperbody() {
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="left aligned six wide column">
-            <div class="ui icon input">
-              <input type="text" placeholder="Enter your email" />
-              <i aria-hidden="true" class="search icon"></i>
-            </div>
-            <button class="ui blue button">Get Started</button>
+        <div className="gap">
+          <div class="ui icon input">
+            <input
+              id="background2"
+              type="text"
+              placeholder="Enter your email"
+            />
+            <i aria-hidden="true" class="search icon"></i>
           </div>
+          <button id={"iconsz"} class="ui blue button">
+            Get Started
+          </button>
         </div>
         <div class="row">
           <div class="left aligned three wide column">
